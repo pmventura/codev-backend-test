@@ -5,11 +5,21 @@
 - [X] Elasticsearch 6.0.0
 
 ## How to setup the application
-1. Build the docker-compose
+1. Configure the environment variable
+- `mv .env.example .env`
+
+2. Build the docker-compose
 - Run `docker-compose build`
 
-2. Run the application (ES, Kibana, Python)
+3. Get the applications up and running (ES, Kibana, Python)
 - Run `docker-compose up`
+
+Note: *Elasticsearch* might take some time to completely run, please wait for at least couple of minutes before accessing
+
+4. Once done, you should able to access the following services:
+- `ES: http://localhost:9200`
+- `Kibana: http://localhost:5601`
+- `Flask app: http://localhost:5000` with swagger API
 
 ## API Endpoints
 - You can download the Postman [here](https://www.getpostman.com/collections/16aa23fc0e398c701d52)
