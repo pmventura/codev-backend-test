@@ -4,7 +4,8 @@ parser = reqparse.RequestParser()
 import os.path
 from os import path
 from datetime import datetime
-es = Elasticsearch()
+from config import Config
+es = Elasticsearch(Config.ELASTICSEARCH_URL)
 from pathlib import Path
 
 
