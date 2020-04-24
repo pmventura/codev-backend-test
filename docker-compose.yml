@@ -26,6 +26,18 @@ services:
             ELASTICSEARCH_HOSTS: http://elasticsearch:9200
         networks:
             - elastic
+    codev-api:
+        container_name: codev-api
+        build: .
+        command: python manage.py runserver -d
+        ports:
+            - "5000:5000"
+        volumes:
+            - .:/codev
+        networks:
+            - elastic
+        links:
+            - elasticsearch
 
 volumes:
   data01:
