@@ -14,12 +14,12 @@
 3. Get the applications up and running (ES, Kibana, Python)
 - Run `docker-compose up`
 
-Note: *Elasticsearch* might take some time to completely run, please wait for at least couple of minutes before accessing
+Note: *Elasticsearch* might take some time to completely run, please wait for at least couple of minutes before accessing it
 
 4. Once done, you should able to access the following services:
-- `ES: [Elasticsearch](http://localhost:9200)`
-- `Kibana: [Kibana](http://localhost:5601)`
-- `Flask app: [Flask](http://localhost:5000)` with swagger API
+- ES: [http://localhost:9200](http://localhost:9200)
+- Kibana: [http://localhost:5601](http://localhost:5601)
+- Flask app: [http://localhost:5000](http://localhost:5000) with swagger API
 
 ## API Endpoints
 - You can download the Postman [here](https://www.getpostman.com/collections/16aa23fc0e398c701d52)
