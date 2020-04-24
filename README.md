@@ -17,9 +17,9 @@
 Note: *Elasticsearch* might take some time to completely run, please wait for at least couple of minutes before accessing
 
 4. Once done, you should able to access the following services:
-- `ES: [http://localhost:9200](http://localhost:9200)`
-- `Kibana: [http://localhost:9200](http://localhost:5601)`
-- `Flask app: [http://localhost:9200](http://localhost:5000)` with swagger API
+- `ES: [Elasticsearch](http://localhost:9200)`
+- `Kibana: [Kibana](http://localhost:5601)`
+- `Flask app: [Flask](http://localhost:5000)` with swagger API
 
 ## API Endpoints
 - You can download the Postman [here](https://www.getpostman.com/collections/16aa23fc0e398c701d52)
@@ -39,7 +39,7 @@ Note: *Elasticsearch* might take some time to completely run, please wait for at
 
 2. Using Linux, what would the command or set of commands look like to connect to an NFS system?
 - **Answer**:
->
+```
 # Installing NFS Client Packages
 sudo apt update
 sudo apt install nfs-common
@@ -49,6 +49,7 @@ sudo yum install nfs-utils
 sudo mkdir /var/backups
 mount /var/backups
 mount 10.10.0.10:/backups
+```
 
 3. Say we have 30GB worth of data we need to ingest. For either MongoDB or Elasticsearch, what would your strategy be to tackle the ingestion efficiently?
 - **Answer**: `Logstash would be the best tool handle such huge amount of data for ingesting to multiple destinations either MongoDB/ES`
