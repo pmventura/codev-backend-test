@@ -1,0 +1,32 @@
+[
+  {
+    "user_id": 1,
+    "display_name": "andrew panhon",
+    "password": "password"
+  },
+  {
+    "user_id": 2,
+    "display_name": "andie shimmer",
+    "password": "password"
+  },
+  {
+    "user_id": 3,
+    "display_name": "arnel pineda",
+    "password": "password"
+  },
+  {
+    "user_id": 4,
+    "display_name": "john doe",
+    "password": "password"
+  },
+  {
+    "user_id": 5,
+    "display_name": "jane doe",
+    "password": "password"
+  },
+  {
+    "user_id": 6,
+    "display_name": "juan dela cruz",
+    "password": "password"
+  }
+]
